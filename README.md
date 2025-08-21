@@ -42,5 +42,3 @@ For detailed help on any command, use the `--help` flag:
 ```bash
 megacli report:import --help
 ```
-
-````
