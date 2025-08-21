@@ -1,0 +1,56 @@
+{
+  "name": "@utkarshpatil/megacli",
+  "version": "1.0.1",
+  "description": "A unified CLI tool for report importing, system configuration, and automation.",
+  "author": "Utkarsh Patil <utkarshpatil@credenceanalytics.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://your-git-repo-url.git"
+  },
+  "main": "index.js",
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "megacli",
+    "default": ".",
+    "plugins": [
+      "@oclif/plugin-help",
+      "@oclif/plugin-plugins"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "megacli": "./bin/dev"
+  },
+  "files": [
+    "/bin",
+    "/src",
+    "/data",
+    "/oclif.manifest.json",
+    "/package.json",
+    "/npm-shrinkwrap.json"
+  ],
+  "keywords": [
+    "cli",
+    "automation",
+    "reports",
+    "jmeter"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@oclif/core": "^2.16.0",
+    "@oclif/plugin-help": "^6.2.32",
+    "@oclif/plugin-plugins": "^4.0.0",
+    "axios": "^1.11.0",
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "figlet": "^1.7.0",
+    "form-data": "^4.0.4",
+    "fs-extra": "^11.3.1",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^8.2.7",
+    "ora": "^5.4.1",
+    "winston": "^3.17.0"
+  }
+}

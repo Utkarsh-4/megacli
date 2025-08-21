@@ -1,0 +1,8 @@
+{
+  "paths": {
+    "datasets": "C:/shriram_local/wildfly-8.22/standalone/deployments/REPORTING.war/STD/Datasets/datasets.js",
+    "filters": "C:/shriram_local/wildfly-8.22/standalone/deployments/REPORTING.war/STD/ReportManager/DatasetFilters.json",
+    "wrappers": "C:/shriram_local/wildfly-8.22/standalone/deployments/REPORTING.war/Framewrk/globalsqlwrapper.js",
+    "globalsql": "C:/shriram_local/wildfly-8.22/standalone/deployments/REPORTING.war/Framewrk/globalsql.js"
+  }
+}
